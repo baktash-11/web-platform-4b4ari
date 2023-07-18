@@ -5,15 +5,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="events.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" src="script.js"></script>
   </head>
   <body>
     <nav>
       <a href="/">Home</a>
-      <a href="/page2.html" aria-current="page">Other page</a>
+      <a href="/page2.html" aria-current="page">Event Listener</a>
     </nav>
     <main>
-      <h1>My other page</h1>
+      <h1>Event Listener</h1>
+      <div class="container">
+        <div class="boxes box-1">
+          <h2 id="heading">Example 1</h2>
+          <button class="btn btn-1">Enter</button>
+        </div>
+        <div class="boxes box-2">
+          <h2 id="heading">Example 2</h2>
+          <button class="btn btn-2">Enter</button>
+        </div>
+        <div class="boxes box-3">
+          <h2 id="heading">Example 3</h2>
+          <button class="btn btn-3">Enter</button>
+        </div>
+      </div>
     </main>
+    <script type="module" src="event.js"></script>
   </body>
 </html>
