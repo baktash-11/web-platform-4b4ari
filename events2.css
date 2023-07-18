@@ -1,0 +1,35 @@
+body {
+  background-color: #c9ada7;
+}
+.container {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 70vh;
+  background-color: wheat;
+}
+
+.more-content {
+  width: 60%;
+  border: 2px solid #22223b;
+  color: #22223b;
+  padding: 20px;
+  border-radius: 10px;
+  height: 50vh;
+}
+
+.show-more {
+  padding: 20 2px;
+  border: 2px solid #22223b;
+  height: 50vh;
+  border-radius: 4px;
+
+}
+.show-more button {
+  background-color: wheat;
+  border: none;
+  
+}
